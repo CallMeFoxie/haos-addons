@@ -1,5 +1,5 @@
 name: "Incus Agent"
-version: "1.0.1"
+version: "1.0.2"
 slug: "incus_agent"
 description: "Runs incus-agent to provide metrics to an Incus host"
 arch:
