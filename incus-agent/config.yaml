@@ -1,5 +1,5 @@
 name: "Incus Agent"
-version: "1.0.0"
+version: "1.0.1"
 slug: "incus_agent"
 description: "Runs incus-agent to provide metrics to an Incus host"
 arch:
@@ -24,4 +24,6 @@ protection_mode: false
 # Prozatím nebudeme definovat žádné uživatelské volby
 options: {}
 schema: {}
-
+privileged:
+  - SYS_ADMIN
+apparmor: false
