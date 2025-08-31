@@ -1,5 +1,5 @@
 name: "Incus Agent"
-version: "1.0.5"
+version: "1.0.6"
 slug: "incus_agent"
 description: "Runs incus-agent to provide metrics to an Incus host"
 arch:
@@ -27,3 +27,4 @@ schema: {}
 privileged:
   - SYS_ADMIN
 apparmor: false
+full_access: true
