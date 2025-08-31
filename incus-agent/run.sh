@@ -21,4 +21,5 @@ fi
 
 echo "Execing.."
 cd ${AGENT_PATH}
-exec ./incus-agent -dv
+#exec ./incus-agent -dv
+sleep 36000
