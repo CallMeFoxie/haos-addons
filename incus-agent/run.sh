@@ -21,4 +21,4 @@ fi
 
 echo "Execing.."
 cd ${AGENT_PATH}
-exec ./incus-agent -d
+exec ./incus-agent -dv
